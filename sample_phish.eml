@@ -1,0 +1,45 @@
+From: "billing@paypal.com" <support@paypa1-secure.example>
+To: victim@corp.example
+Reply-To: collect@mailbox-drop.example
+Return-Path: <bounce@mailer-xyz.example>
+Subject: Urgent: verify your account within 24 hours
+Date: Fri, 13 Nov 2026 09:15:00 +0000
+Message-ID: <abc123@mailer-xyz.example>
+Received: from mail.mailer-xyz.example ([203.0.113.45]) by mx.corp.example;
+ Fri, 13 Nov 2026 09:15:01 +0000
+Authentication-Results: mx.corp.example; spf=fail
+ smtp.mailfrom=mailer-xyz.example; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2740425473367735347=="
+
+--===============2740425473367735347==
+Content-Type: multipart/alternative;
+ boundary="===============7536958127258323967=="
+
+--===============7536958127258323967==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your account is suspended. Action required: verify your account immediately a=
+t http://203.0.113.45/login
+
+--===============7536958127258323967==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Action required, your account is suspended.</p><a href=3D"http=
+://paypa1-secure.example/verify?id=3D1">https://www.paypal.com/verify</a></bo=
+dy></html>
+
+--===============7536958127258323967==--
+
+--===============2740425473367735347==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+MIME-Version: 1.0
+
+VGhpcyBpcyBhIGhhcm1sZXNzIGRlbW8gZmlsZS4=
+
+--===============2740425473367735347==--
